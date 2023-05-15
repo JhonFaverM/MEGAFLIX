@@ -1,0 +1,21 @@
+.orgSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;/*centra texto en la img*/
+}
+
+.title {
+    color: #d9ddf6;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.orgSection img {
+    position: absolute;
+    right: 80%;
+    cursor: pointer;
+}

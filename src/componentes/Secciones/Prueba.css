@@ -1,0 +1,28 @@
+.equipo{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;/*ajusta la vista para que no haya scroll horizontal*/
+    text-align: center;
+    font-size: 32px;
+    position: relative;/*relacionado con el bboton color*/
+}
+
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.equipo h3{
+    font-weight: 400;
+    color: #d1c6c6;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.colaboradores{
+    display: flex;
+    justify-content: space-evenly;/*hace separacion de las card*/
+    flex-wrap: wrap;
+}

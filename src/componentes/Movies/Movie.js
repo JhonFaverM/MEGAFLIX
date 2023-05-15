@@ -1,0 +1,28 @@
+import React, { useState } from "react"
+import { Link } from "react-router-dom"
+import FormCrear from "../CrearContenido/FormCrear"
+import "./Movie.css"
+
+const Movie = ({datos: {  cover, name, time}}) => {  
+
+  return (
+    <>
+        <div className='MovieBox'>
+          <div className='img'>
+            <img src={cover} alt='Portada de pelicula' />
+          </div>
+          <div className='text'>
+            <h3>{name}</h3> <br />
+            <span>{time}</span> <br />
+            <button className='primary-btn'>
+              <i className='fa fa-play'></i> PLAY NOW
+            </button>
+          </div>
+        </div>
+    </>
+  )
+}
+
+
+
+export default Movie

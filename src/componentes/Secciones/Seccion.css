@@ -1,0 +1,28 @@
+
+.seccion{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;/*ajusta la vista para que no haya scroll horizontal*/
+    text-align: center;
+    font-size: 32px;
+    position: relative;/*relacionado con el bboton color*/
+}
+
+.seccion h3{
+    font-weight: 400;
+    color: #f7f2f2;
+    display: inline-block;
+    padding-bottom: 8px;
+    font-size: 2.5rem;
+}
+
+.movies{
+    display: flex;
+    justify-content: space-evenly;/*hace separacion de las card*/
+    flex-wrap: wrap;/*hace enter a la cards*/
+}
+
+
+.upcome h3 {
+    font-size: 2.5rem;
+}

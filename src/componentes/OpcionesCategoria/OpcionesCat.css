@@ -1,0 +1,17 @@
+.opcionesCat label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 8px;
+}
+
+.opcionesCat select {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    padding: 30px 20px;
+    border: none;
+    outline-color: #f04014;
+    font-size: 16px;
+}

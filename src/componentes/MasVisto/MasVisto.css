@@ -1,0 +1,34 @@
+.masVisto {
+    margin-top: 50px;
+
+}
+
+.masVisto h1 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .masVisto h1 {
+        font-size: 50px;
+        margin: 0;
+    }
+    .masVisto {
+        position: relative;
+        height: 60vh !important;
+    }
+    .masVisto .coverImage img {
+        width: 100vw;
+        height: 70vh !important;
+    }
+    .masVisto .content {
+        flex-direction: column;
+        padding: 50px;
+    }
+    .masVisto .row {
+        width: 100%;
+    }
+    .masVisto .palyButton {
+        display: none;
+    }
+}

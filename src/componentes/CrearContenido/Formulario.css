@@ -1,0 +1,38 @@
+.formulario {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 80px 50px; /*50 es espacio en los lados*/
+    flex-wrap: wrap;/*acomoda las cards cuando no caben en una solo linea*/
+    gap: 20px;  /*espacio entre las columnas*/
+}
+
+.formulario form {
+    background: #839393;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 20%);
+    border-radius: 20px;
+    padding: 8px 100px; /*medida interna altura 2do orizontal*/
+    flex: 1;/*cards iguales y flex*/
+}
+
+.formulario {
+    font-size: 32px;
+    font-weight: 400;
+    color: #212121;
+    text-align: center;
+}
+
+.formulario h2{
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 768px) {
+    .formulario {
+        max-width: 100%;
+    }
+    .formulario h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+  

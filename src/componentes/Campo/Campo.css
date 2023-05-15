@@ -1,0 +1,29 @@
+.campo {
+    margin: 24px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.campo label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.campo input {
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 25);
+    border: none;
+    border-radius: 5px;
+    padding: 30px 20px;/*medida interna 30Arriba 20lados*/
+    outline-color: #bb290f;
+    font-size: 16px;
+    box-sizing: border-box;/*evita que los campos se salgan/todos iguales*/  
+}
+
+.campo-color input {
+    height: 40px;
+    padding: 5px 20px;
+}
