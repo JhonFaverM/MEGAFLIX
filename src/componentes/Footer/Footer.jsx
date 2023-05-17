@@ -10,15 +10,11 @@ const Footer = () => {
                     <ul className='flex'>
                         <li>Terminos de uso</li>
                         <li>Politicas de privacidad</li>
-                        <li>Blog</li>
-                        <li>FAQ</li>
-                        <li>Ver Lista</li>
-                        <p>© 2022 MEGAFLIX. All Rights Reserved. Duplication 
-                            and copy of this is strictly prohibited. All rights reserved.</p>
+                       
                     </ul>
                 </div>
                 <div className='box'>
-                    <h3>Follow Us</h3>
+                    <h3>Siguenos</h3>
                     <i className='fab fa-facebook-f'></i>
                     <i className='fab fa-twitter'></i>
                     <i className='fab fa-github'></i>
@@ -30,6 +26,8 @@ const Footer = () => {
                         <img src='https://img.icons8.com/fluency/48/000000/google-play.png' />
                         <span>Google Play Store</span>
                     </div>
+                    <p>© 2022 MEGAFLIX. All Rights Reserved. Duplication 
+                            and copy of this is strictly prohibited.</p>
                 </div>
             </div>
         </footer>

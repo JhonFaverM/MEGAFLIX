@@ -1,3 +1,4 @@
+/*CARDS PEQUEÑAS*/
 .MovieBox {
     width: 430px;
     height: 300px;
@@ -8,7 +9,7 @@
   
   .MovieBox:hover {
     cursor: pointer;
-    border-left: 5px solid #08e525;
+    border-left: 5px solid #e53808;
     transform: scale3d(1.1, 1.1, 1) translate3d(6%, 0, 0) perspective(31.25em);
     box-shadow: 0px 0px 0.75em rgba(192, 22, 22, 0.9);
   }
@@ -28,8 +29,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -2;/*acomoda boton play now*/
-    width: 100%;/*acomoda img dentro movie box*/
+    z-index: -2;
+    width: 100%;
     object-fit: cover;
   
   }
@@ -38,11 +39,11 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    z-index: -2;/*acomoda boton play now*/
+    z-index: -2;
   }
 
   .MovieBox .text {
-    padding: 70px 50px;/*centra boton play now*/
+    padding: 70px 50px;
     padding-left: 20px;
     padding-top: 100px;
   }
@@ -71,7 +72,16 @@
   
   @media only screen and (max-width: 768px) {
     .MovieBox {
-      width: 330px;
-      height: 250px;
+      width: 90vw;
+      height: 25vh;
+    }
+    .MovieBox h3 {
+      font-weight: 500;
+      margin-bottom: 12px;
+      font-size: 1.2rem;
+    }
+    .MovieBox span {
+      font-size: 0.8rem;
     }
   }
+  

@@ -24,7 +24,7 @@ const Header = () => {
                 <a href='/movies'>Movies</a>
               </li>
               <li>
-                <a href='/formCrear'>Load Movie</a>
+                <a href='/formCrear'>Load</a>
               </li>
               <li>
                 <a href='/'>Contacto</a>

@@ -10,13 +10,10 @@
 
 @media only screen and (max-width: 768px) {
     .masVisto h1 {
-        font-size: 50px;
+        font-size: 35px;
         margin: 0;
     }
-    .masVisto {
-        position: relative;
-        height: 60vh !important;
-    }
+    
     .masVisto .coverImage img {
         width: 100vw;
         height: 70vh !important;
@@ -28,7 +25,18 @@
     .masVisto .row {
         width: 100%;
     }
-    .masVisto .palyButton {
-        display: none;
-    }
-}
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .palyButton button {
+        padding: 0;
+        margin: 0;
+        background: none;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: #f4f0a6;
+      }
+  }

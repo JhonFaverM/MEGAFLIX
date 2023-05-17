@@ -1,6 +1,7 @@
+/*
 import React from "react"
 import { Link } from "react-router-dom"
-import Movie from "./Movie"
+//import Movie from "./Movie"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -40,7 +41,7 @@ const Lanzamientos_2 = ({ items, title }) => {
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
@@ -68,7 +69,8 @@ const Lanzamientos_2 = ({ items, title }) => {
   )
 }
 
-export default Lanzamientos_2
+//export default Lanzamientos_2
+*/
 
 
 

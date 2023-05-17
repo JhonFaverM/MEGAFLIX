@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 //INGRESO DESDE PROPS CARDS HOME
 
 const CardHome = (props) => {
-    const { cover, nombre, tiempo, descrip, calificacion, starring, genero, seccionHome} = props.datos
+    const {id, cover, nombre, tiempo, descrip, calificacion, starring, genero, seccionHome} = props.datos
     return <div className="box">
         <div className="coverImage" >
             <img src={cover} />
@@ -39,15 +39,17 @@ const CardHome = (props) => {
                 <i className='fas fa-play'></i>PLAY NOW
             </button>              
         </div>
-        <div className='palyButton row'>          
-            <button>
-                <div className='img'>
-                    <img src='./img/images/play-button.png'></img>
-                    <img src='./img/images/play.png' className='change'></img>
+        <div className='palyButton row'>
+                  <Link to={`/singlepage/${id}`}>
+                    <button>
+                      <div className='img'>
+                        <img src='./img/images/play-button.png'></img>
+                        <img src='./img/images/play.png' className='change'></img>
+                      </div>
+                      WATCH TRAILER
+                    </button>
+                  </Link>
                 </div>
-                WATCH TRAILER
-            </button>
-        </div>
         </div>
     </div>
   

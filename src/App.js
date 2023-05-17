@@ -83,7 +83,7 @@ function App() {
       titulo: "Estrenos",
     },
     {
-      titulo: "Lo mas recomendado"
+      titulo: "Recomendado"
     }
   ]
 
@@ -112,7 +112,7 @@ function App() {
   //Lista de HomeSecciones (= equipos)
   const homeSecciones = [
     {
-      titulo: "Recomendacion"
+      titulo: "Recomendado"
     },
     {
       titulo: "Estrenos"
