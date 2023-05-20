@@ -9,7 +9,7 @@ const LanzCard = ({ item: { id, cover, name, time } }) => {
           <img src={cover} alt='' />
         </div>
         <div className='text'>
-          <h3>{name}</h3>
+          <h2>{name}</h2>
           <span>{time}</span> <br />
           {/*<Link to={`/singlepage/${id}`}>*/}
           <button className='primary-btn'>

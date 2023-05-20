@@ -27,7 +27,7 @@ const Campo = (props) => {
             onChange={manejarSeleccionArchivo}
          />
             ) : (
-        <input 
+        <input
             type="text"
             placeholder={placeholderModificador} 
             required={props.required} 

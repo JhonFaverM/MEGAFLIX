@@ -74,25 +74,25 @@ export const homeData = [
         id: 1,
         cover: "../img/images/alien.png",
         name: "Alien",
-        time: "2 Hr : 25 Min",
+        time: "2h : 25m",
       },
     {
       id: 2,
       cover: "../img/images/depre.png",
       name: "The Predator",
-      time: "2 Hr : 02 min",
+      time: "2h : 02m",
     },
     {
       id: 3,
       cover: "../img/images/siete.png",
       name: "Siete Almas",
-      time: "2 Hr : 45 Min",
+      time: "2h : 45m",
     },
     {
       id: 4,
       cover: "../img/images/lagimas.png",
       name: "Lagrimas del sol",
-      time: "2 Hr : 10 Min",
+      time: "2h : 10m",
     },
     {
       id: 5,
@@ -102,9 +102,9 @@ export const homeData = [
     },
     {
       id: 5,
-      cover: "../img/images/upcome/u8.jpg",
+      cover: "../img/images/fury.jpg",
       name: "Fury",
-      time: "2 Hr : 05 Min",
+      time: "2h : 05m",
     },
   ]
   export const latest = [
@@ -124,19 +124,19 @@ export const homeData = [
       id: 3,
       cover: "../img/images/chitaRun.png",
       name: "Africa Salvaje",
-      time: "2 Hr : 02 Min",
+      time: "2h : 02h",
     },
     {
       id: 4,
       cover: "../img/images/kong.png",
       name: "Kong",
-      time: "2 Hr : 25 Min",
+      time: "2h : 25m",
     },
     {
       id: 5,
       cover: "../img/images/alien.png",
       name: "Alien",
-      time: "2 Hr : 00 Min",
+      time: "2h : 00m",
     },
   ]
   
@@ -195,43 +195,43 @@ export const homeData = [
       id: 1,
       cover: "../img/images/kong.png",
       name: "Kong",
-      time: "2 Hr : 25 Min",
+      time: "2h : 25m",
     },
     {
       id: 2,
       cover: "../img/images/alien.png",
       name: "Alien",
-      time: "2 Hr : 00 Min",
+      time: "2h : 00m",
     },
     {
       id: 3,
       cover: "../img/images/dinoHo.png",
       name: "Dinosaurio",
-      time: "2 Hr : 10 min",
+      time: "2h : 10m",
     },
     {
       id: 4,
       cover: "../img/images/super.png",
       name: "Superman",
-      time: "2 Hr : 20 Min",
+      time: "2h : 20m",
     },
     {
       id: 5,
       cover: "../img/images/depre.png",
       name: "The Predator",
-      time: "2 Hr : 02 min",
+      time: "2h : 02m",
     },
     {
       id: 6,
       cover: "../img/images/siete.png",
       name: "Siete Almas",
-      time: "2 Hr : 45 Min",
+      time: "2h : 45m",
     },
     {
       id: 7,
       cover: "../img/images/lagimas.png",
       name: "Lagrimas del sol",
-      time: "2 Hr : 10 Min",
+      time: "2h : 10m",
     },
   ]
   

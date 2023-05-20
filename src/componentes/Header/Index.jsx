@@ -1,9 +1,11 @@
 import React, { useState } from "react"
 import "./Header.css"
 import { Outlet } from "react-router-dom"
+import { useLocation, Link } from 'react-router-dom';
 
 const Header = () => {
   const [Mobile, setMobile] = useState(false)
+    const location = useLocation();
   return (
     <>
       <header>
@@ -15,19 +17,19 @@ const Header = () => {
             {/*<ul className='flexSB'>*/}
             <ul className={Mobile ? "navMenu-list" : "flexSB"} onClick={() => setMobile(false)}>
               <li>
-                <a href='/'>Home</a>
+              <a href='/' className={location.pathname === '/' ? 'active' : ''}>Home</a>
               </li>
               <li>
-                <a href='/about'>Series</a>
+              <a href='/about' className={location.pathname === '/about' ? 'active' : ''}>Series</a>
               </li>
               <li>
-                <a href='/movies'>Movies</a>
+              <a href='/movies' className={location.pathname === '/movies' ? 'active' : ''}>Movies</a>
               </li>
               <li>
-                <a href='/formCrear'>Load</a>
+              <a href='/formCrear' className={location.pathname === '/formCrear' ? 'active' : ''}>Load</a>
               </li>
               <li>
-                <a href='/'>Contacto</a>
+              <a href='/contact' className={location.pathname === '/contact' ? 'active' : ''}>Contacto</a>
               </li>
             </ul>
             <button className='toggle' onClick={() => setMobile(!Mobile)}>

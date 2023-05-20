@@ -36,16 +36,6 @@ const SinglePage = () => {
                       allotted to the team, number of milestones given & completed, 
                       total Links created for the project and the total time taken by all the users.
                       Each section would elaborate the data further, if chosen.</p>
-                      <p>Get access to the direct Project Overview with this report. 
-                      Just by a quick glance, you’ll have an idea of the total tasks 
-                      allotted to the team, number of milestones given & completed, 
-                      total Links created for the project and the total time taken by all the users.
-                      Each section would elaborate the data further, if chosen.</p>
-                      <p>Get access to the direct Project Overview with this report. 
-                      Just by a quick glance, you’ll have an idea of the total tasks 
-                      allotted to the team, number of milestones given & completed, 
-                      total Links created for the project and the total time taken by all the users.
-                      Each section would elaborate the data further, if chosen.</p>
               </div>
               <div className='social'>
                 <h3>Recomendar & compartir : </h3>

@@ -1,6 +1,5 @@
 import "./OpcionesCat.css"
 
-
 const OpcionesCat = (props) => {
 
   const manejarCambio = (e) => {
@@ -17,9 +16,5 @@ const OpcionesCat = (props) => {
 
   </div>
 }
-
-
-
-
 
 export default OpcionesCat

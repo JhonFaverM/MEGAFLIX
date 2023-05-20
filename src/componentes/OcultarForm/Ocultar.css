@@ -6,11 +6,12 @@
 }
 
 .title {
-    color: #d9ddf6;
+    color: #e7e8ef;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 600;
     padding-bottom: 24px;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 
 }
 
@@ -18,4 +19,28 @@
     position: absolute;
     right: 80%;
     cursor: pointer;
+    width: 80px;
+    margin-top: 10vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .title {
+        color: #e7e8ef;
+        font-size: 15px;
+        display: flex;
+        font-weight: 600;
+        padding-bottom: 24px;
+        font-family: 'Montserrat', sans-serif;
+        padding-left: 4px;
+        padding-right: 4px;
+        text-align: center;
+    
+    }
+    .orgSection img {
+        position: absolute;
+        cursor: pointer;
+        width: 50px;
+        margin-top: 40px;
+        margin-right: 20px;
+    }
 }

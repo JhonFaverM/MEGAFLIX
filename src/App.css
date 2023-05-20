@@ -126,8 +126,8 @@ p {
   padding: 70px 50px;/*centra boton play now*/
 }
 
-.MovieBox h3 {
-  font-weight: 500;
+.MovieBox h2 {
+  font-weight: 400;
   margin-bottom: 15px;
 }
 

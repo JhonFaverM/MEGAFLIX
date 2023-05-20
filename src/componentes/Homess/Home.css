@@ -1,12 +1,18 @@
 .home {
-    margin-top: 50px;
-
+    margin-top: 100px;
 }
 
-.home h1 {
-    font-size: 20px;
-    margin-top: 0;
-
+.homeContainer h1 {
+  margin-top: 80px;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 800;
+  background-image: url("../../../public/img/images/texure.jpg");
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* GRADIENTE DE IMG PRINC*/
@@ -19,27 +25,6 @@
   height: 100vh;
   z-index: 88;
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
-}
-
-@media only screen and (max-width: 768px) {
-  
- 
-  .home .coverImage img {
-      width: 100vw;
-      height: 70vh !important;
-  }
-  .home .content {
-      flex-direction: column;
-      padding: 50px;
-  }
-  .home .row {
-      width: 100%;
-  }
-  
-  .rating i {
-    color: #e5da08;
-    margin-right: 5px;
-  }
 }
 
   .homeContainer {
@@ -56,27 +41,13 @@
   
   .coverImage img {
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
     object-fit: cover;
   }
   
   .homeContainer .content {
     padding: 100px;
   }
-
-  .homeContainer h1 {
-    margin-top: 80px;
-    font-size: 90px;
-    text-transform: uppercase;
-    font-weight: 800;
-    background-image: url("../../../public/img/images/texure.jpg");
-    background-repeat: repeat;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-font-smoothing: antialiased;
-  }
-
 
   .homeContainer .rating {
     margin: 30px 0;
@@ -145,6 +116,9 @@
   .margin {
     margin-top: 35%;
   }
+  .rating i{
+    color: #e5e108;
+  }
 
   @media only screen and (max-width: 768px) {
     .homeContainer h1 {
@@ -161,7 +135,7 @@
   }
 
 
-  @media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 768px) {
     .home h1 {
         font-size: 35px;
         margin: 0;
@@ -196,7 +170,7 @@
     
   }
 
-  @media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 768px) {
     .content {
       display: inline; 
     }
@@ -232,15 +206,15 @@
       font-size: 0.8em;
     }
     .rating label{
-      color: #e5da08;
+      color: #e8e8dd;
     }
     .rating .time{
       color: white;
     }
   }
 
-  @media only screen and (max-width: 420px) {
-    button {
+  @media only screen and (max-width: 768px) {
+    .primary-btn {
       display: none;
       /*
       background: #e50813;
@@ -253,7 +227,7 @@
     }
   }
 
-  @media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 768px) {
     .palyButton img {
       width: 40px;
       height: 40px;

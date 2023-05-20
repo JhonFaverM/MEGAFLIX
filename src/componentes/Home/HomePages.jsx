@@ -3,10 +3,6 @@ import Homes  from "../../componentes/Homess/Homes"
 import MasVisto from "../MasVisto/MasVisto"
 import Lanzamientos from "../Lanzamientos/Lanzamientos"
 import { upcome, latest, recomendado, homeData } from "../../Billboard"
-import Descrip from "../Homess/Descrip"
-//import { MovieCard } from "../MovieHome/MovieCard"
-
-
 
 const HomePages = () => {
 

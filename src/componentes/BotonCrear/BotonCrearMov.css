@@ -1,4 +1,4 @@
-.boton {
+.boton_form {
     background-color: #0b2be2;
     border-radius: 10px;
     font-weight: 700;
@@ -10,6 +10,17 @@
     cursor: pointer;
 }
 
-.boton:hover {
+.boton_form:hover {
     color: #95FFD4;
+}
+@media only screen and (max-width: 768px) {
+    .boton_form {
+        background-color: #0a6a0a;
+        border-radius: 10px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        padding: 9px 32px;
+        color: #ffffff;
+        margin: 32px 0;
+    }
 }

@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import FormCrear from "../CrearContenido/FormCrear"
-import "./Movie.css"
+//import "../Movies/Movie.css"
 
 const Movie = ({datos: {  cover, name, time}}) => {  
 
@@ -12,7 +12,7 @@ const Movie = ({datos: {  cover, name, time}}) => {
             <img src={cover} alt='Portada de pelicula' />
           </div>
           <div className='text'>
-            <h3>{name}</h3> <br />
+            <h2>{name}</h2> 
             <span>{time}</span> <br />
             <button className='primary-btn'>
               <i className='fa fa-play'></i> PLAY NOW

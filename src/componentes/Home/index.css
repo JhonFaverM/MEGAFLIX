@@ -2,26 +2,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* Otros estilos según tus necesidades */
   }
   
   .sec {
     margin-bottom: 20px; /* Espaciado entre las secciones */
-    /* Otros estilos según tus necesidades */
   }
-
-
-
-
-
-/*
-return (
-    <>
-      <Homes />
-      <Lanzamientos items={items} title="Lanzamientos"/>
-      <Lanzamientos items={item} title="Estrenos"/>
-      <MasVisto />
-      <Lanzamientos items={rec} title="Lo mas recomendado"/>
-    </>
-  )
-*/

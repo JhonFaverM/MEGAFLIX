@@ -4,8 +4,9 @@ import hexToRgba from 'hex-to-rgba';
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+//import "../Movies/Movie.css"
 
-
+//LANZAMIENTOS card prequeña
 const SmapleNextArrow =(props) => {
     const { onClick } = props
     return (
@@ -57,18 +58,17 @@ const Seccion = (props) => {
             moviesNov.length > 0 &&
             <section className="upcome">
                 <div className='container'>
-                    <h3>{titulo}</h3>
+                  <div className='heading flexSB'>
+                    <h2>{titulo}</h2>
+                  </div>
                     <div className="content">
-
                         <Slider {...settings}>
                             {moviesNov.map( (datos) => (
                             <Movie key={datos.cover} datos={datos}
                             />
                         ))}
                             
-                        </Slider>
-                        
-                        
+                        </Slider>                      
                     </div>  
                 </div>
             </section>}

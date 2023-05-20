@@ -3,7 +3,8 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import CardHome from '../MoviesHome/CardHom'
-
+import "../Movies/Movie.css"
+//SECCION HOME
 const SmapleNextArrow = (props) => {
     const { onClick } = props
     return (
@@ -42,7 +43,7 @@ const Seccion_1 = (props) => {
     <>
       {cardsHom.length > 0 &&
       <div className='homeContainer'>
-        <h3>{titulo}</h3>
+        <h2>{titulo}</h2>
         <Slider {...settings}>
           {cardsHom.map((datos) => {
               return <section className="home">

@@ -1,22 +1,26 @@
 .formulario {
-    max-width: 50%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     margin: 80px 50px; /*50 es espacio en los lados*/
     flex-wrap: wrap;/*acomoda las cards cuando no caben en una solo linea*/
     gap: 20px;  /*espacio entre las columnas*/
 }
+.form { opacity: 0.5; /* Establece la opacidad al 50% */
+    background-color: rgba(0, 0, 0, 0.5); }
 
 .formulario form {
-    background: #839393;
+    background-image: url("../../../public/img/images/paisaje.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 20%);
     border-radius: 20px;
-    padding: 8px 100px; /*medida interna altura 2do orizontal*/
+    padding: 8px 50px; /*medida interna altura 2do orizontal*/
     flex: 1;/*cards iguales y flex*/
 }
 
 .formulario {
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 400;
     color: #212121;
     text-align: center;
@@ -27,12 +31,20 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .formulario {
-        max-width: 100%;
+    
+    .amplitud h2 {
+        font-size: 15px;
     }
-    .formulario h2 {
-        font-size: 24px;
-        text-align: center;
+    .formulario form {
+        display: flex;
+        flex-direction: column;
     }
+    .textoInt{
+        font-size: 50px;
+    }
+    .formulario .amplitud{
+        padding-left: 10px;
+    }
+     
 }
   

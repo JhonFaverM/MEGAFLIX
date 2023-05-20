@@ -3,6 +3,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .campo label {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -26,4 +27,34 @@
 .campo-color input {
     height: 40px;
     padding: 5px 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .campo {
+        margin: 3px 0;
+        font-family: 'Montserrat', sans-serif;
+        height: 8vh;
+    }
+    .campo label {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;/*NAME, TIME*/
+        font-weight: 800;
+        display: block;
+        margin-bottom: 3px;
+        color: #a80606;
+    }
+    .campo input {
+        width: 100%;
+        background-color: #FFFFFF;
+        box-shadow: 7px 7px 15px rgba(0, 0, 0, 25);
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;/*medida interna 30Arriba 20lados*/
+        outline-color: #bb290f;
+        font-size: 12px;
+        padding-left: 10px;
+        box-sizing: border-box;/*evita que los campos se salgan/todos iguales*/  
+    }
+    
+   
 }

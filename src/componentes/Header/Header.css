@@ -6,6 +6,11 @@ header {
     position: relative;
     z-index: 999;
   }
+  li a.active, li a:hover{
+    background: rgb(238, 195, 3);
+    color: #000000;
+    transition: .5;   
+}
   .logo img {
     width: 150px;
     margin-top: 20px;

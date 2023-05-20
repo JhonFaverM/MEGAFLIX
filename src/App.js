@@ -11,66 +11,68 @@ import Seccion from './componentes/Secciones/Index';
 import { upcome, recomendado} from "../src/Billboard"
 import Lanzamientos from './componentes/Lanzamientos/Lanzamientos';
 import Seccion_1 from './componentes/Secciones/Seccion_1'
+//npm start
 
 
 function App() {
   const [mostrarFormulario, actualizarMostrar] = useState(false)
   const [cardsHom, actualizarCardsHom] = useState([])
+  const [imagenFlecha, setImagenFlecha] = useState('../img/form.png');
 
   const [moviesNov, actualizarMovies] = useState([
     {
       id: 1,
-      name: "Storm",
-      time: "2 : 20 min",
-      cover: "../img/images/upcome/chita.png"
+      name: "Flight",
+      time: "2h : 20m",
+      cover: "../img/images/denzel.png"
     },
     {
       id: 2,
       name: "Desert",
-      time: "2 : 20 min",
+      time: "2h : 20m",
       cover: "../img/images/upcome/bikes.png"
     },
     {
       id: 3,
       name: "Montc",
-      time: "2 : 20 min",
+      time: "2h : 20m",
       cover: "https://github.com/JhonFaverM.png"
     },
     {
       id: 4,
       cover: "../img/images/alien.png",
       name: "Alien",
-      time: "2 Hr : 25 Min",
+      time: "2h : 25m",
     },
     {
       id: 5,
       cover: "../img/images/depre.png",
       name: "The Predator",
-      time: "2 Hr : 02 min",
+      time: "2h : 02m",
     },
     {
       id: 6,
       cover: "../img/images/siete.png",
       name: "Siete Almas",
-      time: "2 Hr : 45 Min",
+      time: "2h : 45m",
     },
     {
       id: 7,
       cover: "../img/images/lagimas.png",
       name: "Lagrimas del sol",
-      time: "2 Hr : 10 Min",
+      time: "2h : 10m",
     },
     {
       id: 8,
       cover: "../img/images/kong.png",
       name: "Kong",
-      time: "2hr : 38mins",
+      time: "2h : 38m",
     },
     {
       id: 9,
-      cover: "../img/images/upcome/u8.jpg",
+      cover: "../img/images/fury.jpg",
       name: "Fury",
-      time: "2 Hr : 05 Min",
+      time: "2h : 05m",
     },
   ])
 
@@ -107,7 +109,10 @@ function App() {
   //Formulario
   const cambiarMostrar = () => {
     actualizarMostrar(!mostrarFormulario)
-  }
+    setImagenFlecha((prevImagen) =>
+    prevImagen === '../img/form.png' ? '../img/cargar.png' : '../img/form.png'
+    );
+  };
 
   //Lista de HomeSecciones (= equipos)
   const homeSecciones = [
@@ -140,10 +145,10 @@ function App() {
               homeSecciones={homeSecciones.map((seccionHom) => seccionHom.titulo )}
               registrarCardHome={registrarCardHome}
 
-            /> : <div>HOLA COMO ESTAN</div>
+            /> : <div></div>
           }
            
-          <Ocultar cambiarMostrar={cambiarMostrar}/>
+          <Ocultar cambiarMostrar={cambiarMostrar} imagenFlecha={imagenFlecha}/>
 
          {
           homeSecciones.map((carrusel) => <Seccion_1  
@@ -177,7 +182,6 @@ function App() {
      
     </div>
   );
-
 }
 
 export default App;

@@ -19,6 +19,4 @@ const OpcionesHome = (props) => {
   </div>
 }
 
-//OpcionesHome = listaOpciones
-
 export default OpcionesHome

@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
 
-
+//ORIGINAL
 const SmapleNextArrow =(props) => {
   const { onClick } = props
   return (
@@ -54,7 +54,7 @@ const Lanzamientos = ({ items, title }) => {
       <section className='upcome'>
         <div className='container'>
             <div className='heading flexSB'>
-                <h1>{title}</h1>
+                <h2>{title}</h2>
                 <Link to="/">View All</Link>
             </div>
             <div className='content'>

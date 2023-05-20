@@ -83,12 +83,12 @@ const FormCrear = (props) => {
     registrarCardHome(datosXEnviar) 
   }
 
-  
   return <section className='formulario'>
     <>
-      <form onSubmit={manejarEnvio}>
+      <form onSubmit={manejarEnvio} className="amplitud" >
           <h2>Formulario para cargar pelis</h2>
-          <Campo 
+          <Campo
+            className="textoInt"
             titulo="Name"
             placeholder="Nombre pelicula" 
             required valor={name} 
@@ -116,7 +116,7 @@ const FormCrear = (props) => {
           />
           <Boton>Crear</Boton>   
       </form>
-      <form onSubmit={manejarEnvio_1}>
+      <form onSubmit={manejarEnvio_1} className="amplitud">
         <h2>Formulario para cargar home</h2>
         <CampoTexto 
           titulo="Nombre"
