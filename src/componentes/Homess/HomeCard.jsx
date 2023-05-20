@@ -6,8 +6,6 @@ export const HomeCard = ({ item: { id, cover, name, rating, time, desc,
     starring, genres, tags, video }}) => {
       const limitedDesc = `${desc.substring(0, 10)}...`; 
       console.log(name)
-
-
   return (
     <>
        <div className='box'>

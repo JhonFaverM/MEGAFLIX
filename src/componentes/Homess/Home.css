@@ -1,5 +1,15 @@
 .home {
-    margin-top: 100px;
+    margin-top: 10px;
+}
+.details p {
+  line-height: 1.2em;
+  font-size: 1.2em;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Muestra solo dos líneas */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 70%;
 }
 
 .homeContainer h1 {

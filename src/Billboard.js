@@ -8,7 +8,7 @@ export const homeData = [
     starring: "Monika Riscanevo Jhon Machado",
     genres: "Deporte",
     tags: "Deporte Aventura",
-    cover: "../img/images/deporte.jpeg",
+    cover: "../img/images/descenso.png",
     video: "../video/deporte.mp4",
     date: "06-Abril-2023",
   },

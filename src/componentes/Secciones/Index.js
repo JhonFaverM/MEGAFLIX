@@ -72,10 +72,7 @@ const Seccion = (props) => {
                     </div>  
                 </div>
             </section>}
-        
-
     </>)
-
 }
 
 
