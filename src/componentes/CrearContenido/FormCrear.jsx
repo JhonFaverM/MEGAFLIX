@@ -10,7 +10,7 @@ const FormCrear = (props) => {
 
   const [name, actualizarName] = useState("")
   const [time, actualizarTime] = useState("")
-  const [cover, actualizarCover] = useState("")
+  //const [cover, actualizarCover] = useState("")
   const [selectedFile, actualizarSelectedFile] = useState(null)
 
   const [seccion, actualizarSeccion] = useState("")
@@ -30,7 +30,7 @@ const FormCrear = (props) => {
 
   const manejarEnvio =(e) => {
     e.preventDefault();
-    console.log("manejar envio")
+    //console.log("manejar envio")
     let datosAEnviar = {
       name,
       time,
@@ -95,8 +95,8 @@ const FormCrear = (props) => {
             actualizarValor={actualizarName} 
           />
           <Campo 
-            titulo="Time" 
-            placeholder="Duracion" 
+            titulo="Tiempo" 
+            placeholder="Duracion/ 00h : 00m" 
             required
             valor={time} 
             actualizarValor={actualizarTime} 
@@ -127,7 +127,7 @@ const FormCrear = (props) => {
         />
         <CampoTexto 
           titulo="Tiempo"
-          placeholder="Tiempo"
+          placeholder="Duracion/ 00h : 00m"
           required
           valor={tiempo}
           actualizarValor={actualizarTiempo} 
@@ -148,7 +148,7 @@ const FormCrear = (props) => {
         />
         <CampoTexto 
           titulo="Calificacion" 
-          placeholder="Calificacion" 
+          placeholder="Calificacion/ 00 %" 
           required
           valor={calificacion}
           actualizarValor={actualizarCalificacion}
