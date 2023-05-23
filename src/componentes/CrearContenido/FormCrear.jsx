@@ -133,13 +133,6 @@ const FormCrear = (props) => {
           actualizarValor={actualizarTiempo} 
          />
         <CampoTexto 
-          titulo="Descripcion"
-          placeholder="Descripcion"
-          required
-          valor={descrip}
-          actualizarValor={actualizarDescrip}  
-        />
-        <CampoTexto 
           titulo="Starring" 
           placeholder="Starring" 
           required
@@ -172,6 +165,14 @@ const FormCrear = (props) => {
           actualizarSeccionHome={actualizarSeccionHome}
           homeSecciones={props.homeSecciones}  
         />
+        <CampoTexto
+          titulo="Descripcion"
+          placeholder="Descripcion"
+          required
+          valor={descrip}
+          actualizarValor={actualizarDescrip}
+          type="textarea" 
+        /><br />
         <Boton>Crear</Boton>
       </form>
       
